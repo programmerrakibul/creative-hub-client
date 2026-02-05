@@ -23,14 +23,16 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-sm md:text-base`}
       >
         <header>
-          <Container className="max-w-291.75 fixed left-[50%] -translate-x-[50%]">
+          <Container className="max-w-291.75 fixed top-10 left-[50%] -translate-x-[50%]">
             <Navbar />
           </Container>
         </header>
-        <main className="space-y-16 md:space-y-20">{children}</main>
+        <main className="space-y-16 md:space-y-20 min-h-[80dvh]">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

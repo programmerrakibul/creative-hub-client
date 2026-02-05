@@ -74,7 +74,7 @@ const Navbar = () => {
       {/* Mobile Navigation Sheet */}
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <SheetContent side="right" className="w-75 sm:w-87.5">
-          <div className="flex flex-col h-full p-6">
+          <div className="flex flex-col h-full p-6 mt-7">
             <div className="flex-1 flex flex-col space-y-4">
               {navItems.map((item) => (
                 <NavLink

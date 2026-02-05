@@ -129,9 +129,9 @@
 }
 
 .nav_links {
-  @apply text-base font-medium text-foreground/80 hover:text-primary transition-colors py-2 px-3 rounded-md hover:bg-accent;
+  @apply text-lg md:text-sm lg:text-lg font-medium text-foreground/80 hover:text-primary transition-colors py-2 px-3 rounded-md hover:bg-accent;
 }
 
-.nav_links.active{
-  @apply text-primary bg-accent
+.nav_links.active {
+  @apply text-primary bg-accent;
 }
