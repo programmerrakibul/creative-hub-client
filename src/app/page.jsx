@@ -1,11 +1,11 @@
-import HomePage from "@/components/pages/Home/HomePage";
+import Banner from "@/components/sections/Banner";
 
-const page = () => {
+const HomePage = () => {
   return (
     <>
-      <HomePage />
+      <Banner />
     </>
   );
 };
 
-export default page;
+export default HomePage;
