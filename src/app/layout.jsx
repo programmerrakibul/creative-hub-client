@@ -30,7 +30,7 @@ const RootLayout = ({ children }) => {
             <Navbar />
           </Container>
         </header>
-        <main className="space-y-16 md:space-y-20 min-h-[80dvh]">
+        <main className="space-y-16 md:space-y-20 min-h-[85dvh]">
           {children}
         </main>
         <Footer />
