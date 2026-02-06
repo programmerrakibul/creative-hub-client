@@ -26,7 +26,7 @@ const RootLayout = ({ children }) => {
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-sm md:text-base`}
       >
         <header>
-          <Container className="max-w-291.75 fixed top-10 left-[50%] -translate-x-[50%]">
+          <Container className="max-w-291.75 fixed top-10 left-[50%] -translate-x-[50%] z-50">
             <Navbar />
           </Container>
         </header>
